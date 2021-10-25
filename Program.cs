@@ -3,11 +3,11 @@ int distance = 10000;
 int firstFriendSpeed = 1;
 int secondFriendSpeed = 2;
 int dogSpeed = 5;
-bool friend = 1 | 2;
+int friend = 1;
 
 while(distance > 10)
 {
-    if(friend = 1)
+    if(friend == 1)
     {
         int time = distance / (firstFriendSpeed + dogSpeed);
         friend = 2;
